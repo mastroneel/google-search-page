@@ -1,0 +1,1 @@
+Replica of the Google search results page for the Odin Project

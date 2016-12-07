@@ -1,50 +1,73 @@
 body {
   background-color: #fff;
-  margin: 0;
+  height: 100%
+}
+
+* {
+  margin: 0;  
   padding: 0;
 }
 
-#header {
-  position: relative;
-  margin: 0 auto 0;
-  padding-top: 0px;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #e4e4e4;
-  line-height: 63px;
+/* header */
+
+#container {
 }
 
-ul li {
-  display: inline-block;
+#header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e4e4e4;
+  height: 63px;
+  min-width: 980px;
+}
+
+#left-header {
+  float: left;
+}
+
+#logo-container {
+  width: 122px;
+}
+
+#logo-container, #searchbar-container {
+  display: inline-flex;
   vertical-align: middle;
 }
 
-.navbar {
-  list-style-type: none;
-  margin: 0;
+#logo-container {
+  width: 125px;
 }
 
 #logo {
-  position: absolute;
-  left: 14px;
-  top: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
-#searchbar {
-  position: absolute;
-  left: 126px;
-  top: 9px;
+#searchbar-container {
+  padding: 10px 0;
+}
+
+#right-header {
+  float: right;
+  display: inline-flex;
+}
+
+#gridicon-container, #signincontainer {
+}
+
+#gridicon-container {
+  padding-top: 20px;
 }
 
 #gridicon {
-  position: absolute;
-  right: 120px;
-  top: 21px;
+}
+
+#signin-container {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .signinbutton {
-  position: absolute;
-  right: 30px;
-  top: 15px;
   font-family: Arial;
   font-size: 13px;
   font-weight: bold;

@@ -116,10 +116,13 @@ body {
 
 #alloption {
   padding-left: 15px;
+  font-family: Arial;
+  font-size: 13px;
   color: #4285f4;
   font-weight: bold;
   position: relative;
   left: -10px;
+  padding-top: 3px;
 }
 
 #gear-container {
